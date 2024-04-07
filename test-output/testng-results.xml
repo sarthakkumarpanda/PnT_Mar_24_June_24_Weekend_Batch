@@ -2,20 +2,16 @@
 <testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-06T18:16:48Z" name="Default suite" finished-at="2024-04-06T18:16:54Z" duration-ms="5502">
+  <suite started-at="2024-04-07T18:11:16Z" name="Default suite" finished-at="2024-04-07T18:11:22Z" duration-ms="6531">
     <groups>
     </groups>
-    <test started-at="2024-04-06T18:16:48Z" name="Default test" finished-at="2024-04-06T18:16:54Z" duration-ms="5502">
-      <class name="com.automation.Day7_6th_Apr_2024_Basics_Of_TestNG.Topic13_SimpleExampleOfAssert">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.automation.Day7_6th_Apr_2024_Basics_Of_TestNG.Topic13_SimpleExampleOfAssert@1972e513]" started-at="2024-04-06T14:16:48Z" name="setup" finished-at="2024-04-06T14:16:53Z" duration-ms="4927" status="PASS">
+    <test started-at="2024-04-07T18:11:16Z" name="Default test" finished-at="2024-04-07T18:11:22Z" duration-ms="6531">
+      <class name="com.automation.Day8_7th_Apr_2024_Xpaths.Topic1_Introduction">
+        <test-method signature="loginTutorialsNinja()[pri:0, instance:com.automation.Day8_7th_Apr_2024_Xpaths.Topic1_Introduction@247310d0]" started-at="2024-04-07T14:11:16Z" name="loginTutorialsNinja" finished-at="2024-04-07T14:11:22Z" duration-ms="6517" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="goingToLoginPage()[pri:0, instance:com.automation.Day7_6th_Apr_2024_Basics_Of_TestNG.Topic13_SimpleExampleOfAssert@1972e513]" started-at="2024-04-06T14:16:53Z" name="goingToLoginPage" finished-at="2024-04-06T14:16:54Z" duration-ms="560" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- goingToLoginPage -->
-      </class> <!-- com.automation.Day7_6th_Apr_2024_Basics_Of_TestNG.Topic13_SimpleExampleOfAssert -->
+        </test-method> <!-- loginTutorialsNinja -->
+      </class> <!-- com.automation.Day8_7th_Apr_2024_Xpaths.Topic1_Introduction -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
