@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.automation.Day7_6th_Apr_2024_Basics_Of_TestNG.Topic12_Assert_Class_inDepth">
+      <class name="com.automation.Day9_13th_Apr_2024_Revision_Day_1.Doubt2_Assertions_Using_TestNG">
         <methods>
-          <include name="login"/>
+          <include name="loginTN"/>
         </methods>
-      </class> <!-- com.automation.Day7_6th_Apr_2024_Basics_Of_TestNG.Topic12_Assert_Class_inDepth -->
+      </class> <!-- com.automation.Day9_13th_Apr_2024_Revision_Day_1.Doubt2_Assertions_Using_TestNG -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
