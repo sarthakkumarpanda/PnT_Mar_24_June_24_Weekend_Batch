@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.automation.Day9_13th_Apr_2024_Revision_Day_1.Doubt2_Assertions_Using_TestNG">
+      <class name="com.automation.Day10_714h_Apr_2024_cssSelector.Syntax_cssSelectors">
         <methods>
-          <include name="loginTN"/>
+          <include name="traversingUsingCSS"/>
         </methods>
-      </class> <!-- com.automation.Day9_13th_Apr_2024_Revision_Day_1.Doubt2_Assertions_Using_TestNG -->
+      </class> <!-- com.automation.Day10_714h_Apr_2024_cssSelector.Syntax_cssSelectors -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
