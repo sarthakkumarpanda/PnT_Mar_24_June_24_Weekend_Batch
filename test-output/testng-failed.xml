@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.automation.Day10_714h_Apr_2024_cssSelector.Syntax_cssSelectors">
+      <class name="com.automation.Day11_20th_Apr_2024_Select_Dropdown.Topic1_Facebook_Dropdown">
         <methods>
-          <include name="traversingUsingCSS"/>
+          <include name="dropDownFacebook"/>
         </methods>
-      </class> <!-- com.automation.Day10_714h_Apr_2024_cssSelector.Syntax_cssSelectors -->
+      </class> <!-- com.automation.Day11_20th_Apr_2024_Select_Dropdown.Topic1_Facebook_Dropdown -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

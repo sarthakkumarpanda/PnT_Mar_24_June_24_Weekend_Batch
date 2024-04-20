@@ -1,4 +1,4 @@
-package com.automation.Day10_714h_Apr_2024_cssSelector;
+package com.automation.Day10_14th_Apr_2024_cssSelector;
 
 public class ClassAssignment_cssSelector {
 	
