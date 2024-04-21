@@ -1,17 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-20T18:50:45Z" name="Default suite" finished-at="2024-04-20T18:50:55Z" duration-ms="9321">
+  <suite started-at="2024-04-21T18:18:22Z" name="Default suite" finished-at="2024-04-21T18:18:38Z" duration-ms="15859">
     <groups>
     </groups>
-    <test started-at="2024-04-20T18:50:45Z" name="Default test" finished-at="2024-04-20T18:50:55Z" duration-ms="9321">
-      <class name="com.automation.Day11_20th_Apr_2024_Select_Dropdown.Topic1_Facebook_Dropdown">
-        <test-method signature="dropDownFacebook()[pri:0, instance:com.automation.Day11_20th_Apr_2024_Select_Dropdown.Topic1_Facebook_Dropdown@7c37508a]" started-at="2024-04-20T14:50:45Z" name="dropDownFacebook" finished-at="2024-04-20T14:50:55Z" duration-ms="9305" status="PASS">
+    <test started-at="2024-04-21T18:18:22Z" name="Default test" finished-at="2024-04-21T18:18:38Z" duration-ms="15859">
+      <class name="com.automation.Day12_21st_Apr_2024_ChromeOptions.Topic1_ChromeOptions">
+        <test-method signature="registerTN()[pri:1, instance:com.automation.Day12_21st_Apr_2024_ChromeOptions.Topic1_ChromeOptions@61c4eee0]" started-at="2024-04-21T14:18:22Z" name="registerTN" finished-at="2024-04-21T14:18:29Z" duration-ms="7555" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- dropDownFacebook -->
-      </class> <!-- com.automation.Day11_20th_Apr_2024_Select_Dropdown.Topic1_Facebook_Dropdown -->
+        </test-method> <!-- registerTN -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.Day12_21st_Apr_2024_ChromeOptions.Topic1_ChromeOptions@61c4eee0]" started-at="2024-04-21T14:18:29Z" name="tearDown" finished-at="2024-04-21T14:18:29Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="headlessMode()[pri:2, instance:com.automation.Day12_21st_Apr_2024_ChromeOptions.Topic1_ChromeOptions@61c4eee0]" started-at="2024-04-21T14:18:29Z" name="headlessMode" finished-at="2024-04-21T14:18:38Z" duration-ms="8256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- headlessMode -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.Day12_21st_Apr_2024_ChromeOptions.Topic1_ChromeOptions@61c4eee0]" started-at="2024-04-21T14:18:38Z" name="tearDown" finished-at="2024-04-21T14:18:38Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.automation.Day12_21st_Apr_2024_ChromeOptions.Topic1_ChromeOptions -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

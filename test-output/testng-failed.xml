@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.automation.Day11_20th_Apr_2024_Select_Dropdown.Topic1_Facebook_Dropdown">
+      <class name="com.automation.Day12_21st_Apr_2024_ChromeOptions.Topic1_ChromeOptions">
         <methods>
-          <include name="dropDownFacebook"/>
+          <include name="tearDown"/>
+          <include name="registerTN"/>
         </methods>
-      </class> <!-- com.automation.Day11_20th_Apr_2024_Select_Dropdown.Topic1_Facebook_Dropdown -->
+      </class> <!-- com.automation.Day12_21st_Apr_2024_ChromeOptions.Topic1_ChromeOptions -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
