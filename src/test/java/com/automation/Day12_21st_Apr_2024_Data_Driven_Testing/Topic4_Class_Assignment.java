@@ -27,7 +27,7 @@ public class Topic4_Class_Assignment {
 	public void registerTN() {
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
-		driver.get(prop.getProperty("url"));
+		driver.get(prop.getProperty("urlRegister"));
 		driver.findElement(By.linkText("My Account")).click();
 		driver.findElement(By.linkText("Register")).click();
 		driver.findElement(By.cssSelector("input#input-firstname")).sendKeys(prop.getProperty("firstName"));
@@ -45,7 +45,7 @@ public class Topic4_Class_Assignment {
 	public void loginTn() {
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
-		driver.get(prop.getProperty("url"));
+		driver.get(prop.getProperty("urlLogin"));
 		driver.findElement(By.linkText("My Account")).click();
 		driver.findElement(By.linkText("Login")).click();
 		driver.findElement(By.id("input-email")).sendKeys(prop.getProperty("validEmail"));

@@ -1,29 +1,123 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-21T18:18:22Z" name="Default suite" finished-at="2024-04-21T18:18:38Z" duration-ms="15859">
+  <suite started-at="2024-04-27T18:56:26Z" name="Suite" finished-at="2024-04-27T18:57:22Z" duration-ms="55599">
     <groups>
     </groups>
-    <test started-at="2024-04-21T18:18:22Z" name="Default test" finished-at="2024-04-21T18:18:38Z" duration-ms="15859">
-      <class name="com.automation.Day12_21st_Apr_2024_ChromeOptions.Topic1_ChromeOptions">
-        <test-method signature="registerTN()[pri:1, instance:com.automation.Day12_21st_Apr_2024_ChromeOptions.Topic1_ChromeOptions@61c4eee0]" started-at="2024-04-21T14:18:22Z" name="registerTN" finished-at="2024-04-21T14:18:29Z" duration-ms="7555" status="PASS">
+    <test started-at="2024-04-27T18:56:26Z" name="Test" finished-at="2024-04-27T18:57:22Z" duration-ms="55599">
+      <class name="com.automation.Day13_27th_Apr_2024_Batch_Running_TestNG.RegisterTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.automation.Day13_27th_Apr_2024_Batch_Running_TestNG.RegisterTest@3f4faf53]" started-at="2024-04-27T14:56:33Z" name="setup" finished-at="2024-04-27T14:56:38Z" duration-ms="4516" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- registerTN -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.Day12_21st_Apr_2024_ChromeOptions.Topic1_ChromeOptions@61c4eee0]" started-at="2024-04-21T14:18:29Z" name="tearDown" finished-at="2024-04-21T14:18:29Z" duration-ms="3" status="PASS">
+        </test-method> <!-- setup -->
+        <test-method signature="registerUsingAllDetails()[pri:1, instance:com.automation.Day13_27th_Apr_2024_Batch_Running_TestNG.RegisterTest@3f4faf53]" started-at="2024-04-27T14:56:38Z" name="registerUsingAllDetails" finished-at="2024-04-27T14:56:40Z" duration-ms="2166" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method signature="headlessMode()[pri:2, instance:com.automation.Day12_21st_Apr_2024_ChromeOptions.Topic1_ChromeOptions@61c4eee0]" started-at="2024-04-21T14:18:29Z" name="headlessMode" finished-at="2024-04-21T14:18:38Z" duration-ms="8256" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- headlessMode -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.Day12_21st_Apr_2024_ChromeOptions.Topic1_ChromeOptions@61c4eee0]" started-at="2024-04-21T14:18:38Z" name="tearDown" finished-at="2024-04-21T14:18:38Z" duration-ms="0" status="PASS">
+        </test-method> <!-- registerUsingAllDetails -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.Day13_27th_Apr_2024_Batch_Running_TestNG.RegisterTest@3f4faf53]" started-at="2024-04-27T14:56:40Z" name="tearDown" finished-at="2024-04-27T14:56:40Z" duration-ms="215" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.automation.Day12_21st_Apr_2024_ChromeOptions.Topic1_ChromeOptions -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.automation.Day13_27th_Apr_2024_Batch_Running_TestNG.RegisterTest@3f4faf53]" started-at="2024-04-27T14:56:46Z" name="setup" finished-at="2024-04-27T14:56:51Z" duration-ms="4767" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="registerUsingMandatoryDetails()[pri:2, instance:com.automation.Day13_27th_Apr_2024_Batch_Running_TestNG.RegisterTest@3f4faf53]" started-at="2024-04-27T14:56:51Z" name="registerUsingMandatoryDetails" finished-at="2024-04-27T14:56:52Z" duration-ms="1636" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerUsingMandatoryDetails -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.Day13_27th_Apr_2024_Batch_Running_TestNG.RegisterTest@3f4faf53]" started-at="2024-04-27T14:56:52Z" name="tearDown" finished-at="2024-04-27T14:56:53Z" duration-ms="272" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.automation.Day13_27th_Apr_2024_Batch_Running_TestNG.RegisterTest@3f4faf53]" started-at="2024-04-27T14:56:58Z" name="setup" finished-at="2024-04-27T14:57:03Z" duration-ms="4516" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="registerUsingNodetails()[pri:3, instance:com.automation.Day13_27th_Apr_2024_Batch_Running_TestNG.RegisterTest@3f4faf53]" started-at="2024-04-27T14:57:03Z" name="registerUsingNodetails" finished-at="2024-04-27T14:57:04Z" duration-ms="577" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerUsingNodetails -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.Day13_27th_Apr_2024_Batch_Running_TestNG.RegisterTest@3f4faf53]" started-at="2024-04-27T14:57:04Z" name="tearDown" finished-at="2024-04-27T14:57:04Z" duration-ms="263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.automation.Day13_27th_Apr_2024_Batch_Running_TestNG.RegisterTest@3f4faf53]" started-at="2024-04-27T14:57:10Z" name="setup" finished-at="2024-04-27T14:57:15Z" duration-ms="4851" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="registerUsingExistingEmail()[pri:4, instance:com.automation.Day13_27th_Apr_2024_Batch_Running_TestNG.RegisterTest@3f4faf53]" started-at="2024-04-27T14:57:15Z" name="registerUsingExistingEmail" finished-at="2024-04-27T14:57:16Z" duration-ms="1934" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerUsingExistingEmail -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.Day13_27th_Apr_2024_Batch_Running_TestNG.RegisterTest@3f4faf53]" started-at="2024-04-27T14:57:16Z" name="tearDown" finished-at="2024-04-27T14:57:17Z" duration-ms="252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.automation.Day13_27th_Apr_2024_Batch_Running_TestNG.RegisterTest -->
+      <class name="com.automation.Day13_27th_Apr_2024_Batch_Running_TestNG.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.automation.Day13_27th_Apr_2024_Batch_Running_TestNG.LoginTest@2a693f59]" started-at="2024-04-27T14:56:27Z" name="setup" finished-at="2024-04-27T14:56:31Z" duration-ms="4445" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginWithValidCredentials()[pri:1, instance:com.automation.Day13_27th_Apr_2024_Batch_Running_TestNG.LoginTest@2a693f59]" started-at="2024-04-27T14:56:31Z" name="loginWithValidCredentials" finished-at="2024-04-27T14:56:33Z" duration-ms="1992" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.Day13_27th_Apr_2024_Batch_Running_TestNG.LoginTest@2a693f59]" started-at="2024-04-27T14:56:33Z" name="tearDown" finished-at="2024-04-27T14:56:33Z" duration-ms="265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.automation.Day13_27th_Apr_2024_Batch_Running_TestNG.LoginTest@2a693f59]" started-at="2024-04-27T14:56:40Z" name="setup" finished-at="2024-04-27T14:56:44Z" duration-ms="4052" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginWithinvalidCredentials()[pri:2, instance:com.automation.Day13_27th_Apr_2024_Batch_Running_TestNG.LoginTest@2a693f59]" started-at="2024-04-27T14:56:44Z" name="loginWithinvalidCredentials" finished-at="2024-04-27T14:56:46Z" duration-ms="1538" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithinvalidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.Day13_27th_Apr_2024_Batch_Running_TestNG.LoginTest@2a693f59]" started-at="2024-04-27T14:56:46Z" name="tearDown" finished-at="2024-04-27T14:56:46Z" duration-ms="358" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.automation.Day13_27th_Apr_2024_Batch_Running_TestNG.LoginTest@2a693f59]" started-at="2024-04-27T14:56:53Z" name="setup" finished-at="2024-04-27T14:56:57Z" duration-ms="3788" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginWithValidEmailInvalidPassword()[pri:3, instance:com.automation.Day13_27th_Apr_2024_Batch_Running_TestNG.LoginTest@2a693f59]" started-at="2024-04-27T14:56:57Z" name="loginWithValidEmailInvalidPassword" finished-at="2024-04-27T14:56:58Z" duration-ms="1698" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidEmailInvalidPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.Day13_27th_Apr_2024_Batch_Running_TestNG.LoginTest@2a693f59]" started-at="2024-04-27T14:56:58Z" name="tearDown" finished-at="2024-04-27T14:56:58Z" duration-ms="267" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.automation.Day13_27th_Apr_2024_Batch_Running_TestNG.LoginTest@2a693f59]" started-at="2024-04-27T14:57:04Z" name="setup" finished-at="2024-04-27T14:57:08Z" duration-ms="4176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginWithInvalidEmailValidPassword()[pri:4, instance:com.automation.Day13_27th_Apr_2024_Batch_Running_TestNG.LoginTest@2a693f59]" started-at="2024-04-27T14:57:08Z" name="loginWithInvalidEmailValidPassword" finished-at="2024-04-27T14:57:09Z" duration-ms="1418" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithInvalidEmailValidPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.Day13_27th_Apr_2024_Batch_Running_TestNG.LoginTest@2a693f59]" started-at="2024-04-27T14:57:09Z" name="tearDown" finished-at="2024-04-27T14:57:10Z" duration-ms="241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.automation.Day13_27th_Apr_2024_Batch_Running_TestNG.LoginTest@2a693f59]" started-at="2024-04-27T14:57:17Z" name="setup" finished-at="2024-04-27T14:57:21Z" duration-ms="3880" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginWithNoCredentials()[pri:5, instance:com.automation.Day13_27th_Apr_2024_Batch_Running_TestNG.LoginTest@2a693f59]" started-at="2024-04-27T14:57:21Z" name="loginWithNoCredentials" finished-at="2024-04-27T14:57:22Z" duration-ms="1198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithNoCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.Day13_27th_Apr_2024_Batch_Running_TestNG.LoginTest@2a693f59]" started-at="2024-04-27T14:57:22Z" name="tearDown" finished-at="2024-04-27T14:57:22Z" duration-ms="282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.automation.Day13_27th_Apr_2024_Batch_Running_TestNG.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

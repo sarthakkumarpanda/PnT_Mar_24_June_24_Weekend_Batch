@@ -1,4 +1,4 @@
-package com.java.Da10_14th_Apr_2024_STRINGS;
+package com.java.Day10_14th_Apr_2024_STRINGS;
 
 public class Topic1_Introduction {
 	

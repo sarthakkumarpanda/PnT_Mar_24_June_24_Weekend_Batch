@@ -45,6 +45,7 @@ public class Topic2_Properties_file {
 		driver.findElement(By.id("input-email")).sendKeys(prop.getProperty("validEmail"));
 		driver.findElement(By.id("input-password")).sendKeys(prop.getProperty("validPassword"));
 		driver.findElement(By.cssSelector("input.btn.btn-primary")).click();
+		
 		softassert.assertTrue(driver.findElement(By.linkText("Logout")).isDisplayed());
 		softassert.assertAll();
 		

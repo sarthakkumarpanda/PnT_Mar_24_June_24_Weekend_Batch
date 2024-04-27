@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+  
+  <parameter name = "url"                    value = "https://tutorialsninja.com/demo" />
+   <parameter name = "firstname"             value = "Selenium" />
+    <parameter name = "lastname"             value = "Panda" />
+    <parameter name = "telephone"            value = "9876543210" />
+     <parameter name = "password"            value = "Selenium@123" />
+      <parameter name = "confirmpassword"    value = "Selenium@123" />
+  
+    <classes>
+      <class name="com.automation.Day13_27th_Apr_2024_Paramterization_in_TestNG.Topic2_ClassAssignment_TN_Register"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
