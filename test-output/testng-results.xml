@@ -1,123 +1,190 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+<testng-results ignored="0" total="8" passed="7" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-27T18:56:26Z" name="Suite" finished-at="2024-04-27T18:57:22Z" duration-ms="55599">
+  <suite started-at="2024-04-28T18:36:56Z" name="Default suite" finished-at="2024-04-28T18:37:41Z" duration-ms="45658">
     <groups>
     </groups>
-    <test started-at="2024-04-27T18:56:26Z" name="Test" finished-at="2024-04-27T18:57:22Z" duration-ms="55599">
-      <class name="com.automation.Day13_27th_Apr_2024_Batch_Running_TestNG.RegisterTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.automation.Day13_27th_Apr_2024_Batch_Running_TestNG.RegisterTest@3f4faf53]" started-at="2024-04-27T14:56:33Z" name="setup" finished-at="2024-04-27T14:56:38Z" duration-ms="4516" status="PASS">
+    <test started-at="2024-04-28T18:36:56Z" name="Default test" finished-at="2024-04-28T18:37:41Z" duration-ms="45658">
+      <class name="com.automation.Day14_28th_Apr_2024_DataProvider_ExcelSheet.Topic2_TestCases">
+        <test-method signature="loginTest(java.lang.String, java.lang.String)[pri:1, instance:com.automation.Day14_28th_Apr_2024_DataProvider_ExcelSheet.Topic2_TestCases@4007f65e]" started-at="2024-04-28T14:36:57Z" name="loginTest" data-provider="getTNLoginExcelData" finished-at="2024-04-28T14:37:04Z" duration-ms="7054" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[seleniumpanda@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Selenium@123]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="registerUsingAllDetails()[pri:1, instance:com.automation.Day13_27th_Apr_2024_Batch_Running_TestNG.RegisterTest@3f4faf53]" started-at="2024-04-27T14:56:38Z" name="registerUsingAllDetails" finished-at="2024-04-27T14:56:40Z" duration-ms="2166" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- registerUsingAllDetails -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.Day13_27th_Apr_2024_Batch_Running_TestNG.RegisterTest@3f4faf53]" started-at="2024-04-27T14:56:40Z" name="tearDown" finished-at="2024-04-27T14:56:40Z" duration-ms="215" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.automation.Day13_27th_Apr_2024_Batch_Running_TestNG.RegisterTest@3f4faf53]" started-at="2024-04-27T14:56:46Z" name="setup" finished-at="2024-04-27T14:56:51Z" duration-ms="4767" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="registerUsingMandatoryDetails()[pri:2, instance:com.automation.Day13_27th_Apr_2024_Batch_Running_TestNG.RegisterTest@3f4faf53]" started-at="2024-04-27T14:56:51Z" name="registerUsingMandatoryDetails" finished-at="2024-04-27T14:56:52Z" duration-ms="1636" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- registerUsingMandatoryDetails -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.Day13_27th_Apr_2024_Batch_Running_TestNG.RegisterTest@3f4faf53]" started-at="2024-04-27T14:56:52Z" name="tearDown" finished-at="2024-04-27T14:56:53Z" duration-ms="272" status="PASS">
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.Day14_28th_Apr_2024_DataProvider_ExcelSheet.Topic2_TestCases@4007f65e]" started-at="2024-04-28T14:37:04Z" name="tearDown" finished-at="2024-04-28T14:37:04Z" duration-ms="254" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.automation.Day13_27th_Apr_2024_Batch_Running_TestNG.RegisterTest@3f4faf53]" started-at="2024-04-27T14:56:58Z" name="setup" finished-at="2024-04-27T14:57:03Z" duration-ms="4516" status="PASS">
+        <test-method signature="loginTest(java.lang.String, java.lang.String)[pri:1, instance:com.automation.Day14_28th_Apr_2024_DataProvider_ExcelSheet.Topic2_TestCases@4007f65e]" started-at="2024-04-28T14:37:04Z" name="loginTest" data-provider="getTNLoginExcelData" finished-at="2024-04-28T14:37:10Z" duration-ms="6018" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[seleniumpanda1@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Selenium@123]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="registerUsingNodetails()[pri:3, instance:com.automation.Day13_27th_Apr_2024_Batch_Running_TestNG.RegisterTest@3f4faf53]" started-at="2024-04-27T14:57:03Z" name="registerUsingNodetails" finished-at="2024-04-27T14:57:04Z" duration-ms="577" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- registerUsingNodetails -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.Day13_27th_Apr_2024_Batch_Running_TestNG.RegisterTest@3f4faf53]" started-at="2024-04-27T14:57:04Z" name="tearDown" finished-at="2024-04-27T14:57:04Z" duration-ms="263" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.automation.Day13_27th_Apr_2024_Batch_Running_TestNG.RegisterTest@3f4faf53]" started-at="2024-04-27T14:57:10Z" name="setup" finished-at="2024-04-27T14:57:15Z" duration-ms="4851" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="registerUsingExistingEmail()[pri:4, instance:com.automation.Day13_27th_Apr_2024_Batch_Running_TestNG.RegisterTest@3f4faf53]" started-at="2024-04-27T14:57:15Z" name="registerUsingExistingEmail" finished-at="2024-04-27T14:57:16Z" duration-ms="1934" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- registerUsingExistingEmail -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.Day13_27th_Apr_2024_Batch_Running_TestNG.RegisterTest@3f4faf53]" started-at="2024-04-27T14:57:16Z" name="tearDown" finished-at="2024-04-27T14:57:17Z" duration-ms="252" status="PASS">
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.Day14_28th_Apr_2024_DataProvider_ExcelSheet.Topic2_TestCases@4007f65e]" started-at="2024-04-28T14:37:10Z" name="tearDown" finished-at="2024-04-28T14:37:10Z" duration-ms="280" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.automation.Day13_27th_Apr_2024_Batch_Running_TestNG.RegisterTest -->
-      <class name="com.automation.Day13_27th_Apr_2024_Batch_Running_TestNG.LoginTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.automation.Day13_27th_Apr_2024_Batch_Running_TestNG.LoginTest@2a693f59]" started-at="2024-04-27T14:56:27Z" name="setup" finished-at="2024-04-27T14:56:31Z" duration-ms="4445" status="PASS">
+        <test-method signature="loginTest(java.lang.String, java.lang.String)[pri:1, instance:com.automation.Day14_28th_Apr_2024_DataProvider_ExcelSheet.Topic2_TestCases@4007f65e]" started-at="2024-04-28T14:37:10Z" name="loginTest" data-provider="getTNLoginExcelData" finished-at="2024-04-28T14:37:16Z" duration-ms="5746" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[seleniumpanda2@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Selenium@123]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="loginWithValidCredentials()[pri:1, instance:com.automation.Day13_27th_Apr_2024_Batch_Running_TestNG.LoginTest@2a693f59]" started-at="2024-04-27T14:56:31Z" name="loginWithValidCredentials" finished-at="2024-04-27T14:56:33Z" duration-ms="1992" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginWithValidCredentials -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.Day13_27th_Apr_2024_Batch_Running_TestNG.LoginTest@2a693f59]" started-at="2024-04-27T14:56:33Z" name="tearDown" finished-at="2024-04-27T14:56:33Z" duration-ms="265" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.automation.Day13_27th_Apr_2024_Batch_Running_TestNG.LoginTest@2a693f59]" started-at="2024-04-27T14:56:40Z" name="setup" finished-at="2024-04-27T14:56:44Z" duration-ms="4052" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="loginWithinvalidCredentials()[pri:2, instance:com.automation.Day13_27th_Apr_2024_Batch_Running_TestNG.LoginTest@2a693f59]" started-at="2024-04-27T14:56:44Z" name="loginWithinvalidCredentials" finished-at="2024-04-27T14:56:46Z" duration-ms="1538" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginWithinvalidCredentials -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.Day13_27th_Apr_2024_Batch_Running_TestNG.LoginTest@2a693f59]" started-at="2024-04-27T14:56:46Z" name="tearDown" finished-at="2024-04-27T14:56:46Z" duration-ms="358" status="PASS">
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.Day14_28th_Apr_2024_DataProvider_ExcelSheet.Topic2_TestCases@4007f65e]" started-at="2024-04-28T14:37:16Z" name="tearDown" finished-at="2024-04-28T14:37:16Z" duration-ms="207" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.automation.Day13_27th_Apr_2024_Batch_Running_TestNG.LoginTest@2a693f59]" started-at="2024-04-27T14:56:53Z" name="setup" finished-at="2024-04-27T14:56:57Z" duration-ms="3788" status="PASS">
+        <test-method signature="loginTest(java.lang.String, java.lang.String)[pri:1, instance:com.automation.Day14_28th_Apr_2024_DataProvider_ExcelSheet.Topic2_TestCases@4007f65e]" started-at="2024-04-28T14:37:16Z" name="loginTest" data-provider="getTNLoginExcelData" finished-at="2024-04-28T14:37:22Z" duration-ms="6010" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[seleniumpanda3@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Selenium@123]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="loginWithValidEmailInvalidPassword()[pri:3, instance:com.automation.Day13_27th_Apr_2024_Batch_Running_TestNG.LoginTest@2a693f59]" started-at="2024-04-27T14:56:57Z" name="loginWithValidEmailInvalidPassword" finished-at="2024-04-27T14:56:58Z" duration-ms="1698" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginWithValidEmailInvalidPassword -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.Day13_27th_Apr_2024_Batch_Running_TestNG.LoginTest@2a693f59]" started-at="2024-04-27T14:56:58Z" name="tearDown" finished-at="2024-04-27T14:56:58Z" duration-ms="267" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.automation.Day13_27th_Apr_2024_Batch_Running_TestNG.LoginTest@2a693f59]" started-at="2024-04-27T14:57:04Z" name="setup" finished-at="2024-04-27T14:57:08Z" duration-ms="4176" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="loginWithInvalidEmailValidPassword()[pri:4, instance:com.automation.Day13_27th_Apr_2024_Batch_Running_TestNG.LoginTest@2a693f59]" started-at="2024-04-27T14:57:08Z" name="loginWithInvalidEmailValidPassword" finished-at="2024-04-27T14:57:09Z" duration-ms="1418" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginWithInvalidEmailValidPassword -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.Day13_27th_Apr_2024_Batch_Running_TestNG.LoginTest@2a693f59]" started-at="2024-04-27T14:57:09Z" name="tearDown" finished-at="2024-04-27T14:57:10Z" duration-ms="241" status="PASS">
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.Day14_28th_Apr_2024_DataProvider_ExcelSheet.Topic2_TestCases@4007f65e]" started-at="2024-04-28T14:37:22Z" name="tearDown" finished-at="2024-04-28T14:37:22Z" duration-ms="277" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.automation.Day13_27th_Apr_2024_Batch_Running_TestNG.LoginTest@2a693f59]" started-at="2024-04-27T14:57:17Z" name="setup" finished-at="2024-04-27T14:57:21Z" duration-ms="3880" status="PASS">
+        <test-method signature="loginTest(java.lang.String, java.lang.String)[pri:1, instance:com.automation.Day14_28th_Apr_2024_DataProvider_ExcelSheet.Topic2_TestCases@4007f65e]" started-at="2024-04-28T14:37:22Z" name="loginTest" data-provider="getTNLoginExcelData" finished-at="2024-04-28T14:37:29Z" duration-ms="6155" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[seleniumpanda4@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Selenium@123]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="loginWithNoCredentials()[pri:5, instance:com.automation.Day13_27th_Apr_2024_Batch_Running_TestNG.LoginTest@2a693f59]" started-at="2024-04-27T14:57:21Z" name="loginWithNoCredentials" finished-at="2024-04-27T14:57:22Z" duration-ms="1198" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginWithNoCredentials -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.Day13_27th_Apr_2024_Batch_Running_TestNG.LoginTest@2a693f59]" started-at="2024-04-27T14:57:22Z" name="tearDown" finished-at="2024-04-27T14:57:22Z" duration-ms="282" status="PASS">
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.Day14_28th_Apr_2024_DataProvider_ExcelSheet.Topic2_TestCases@4007f65e]" started-at="2024-04-28T14:37:29Z" name="tearDown" finished-at="2024-04-28T14:37:29Z" duration-ms="285" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.automation.Day13_27th_Apr_2024_Batch_Running_TestNG.LoginTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        <test-method signature="loginTest(java.lang.String, java.lang.String)[pri:1, instance:com.automation.Day14_28th_Apr_2024_DataProvider_ExcelSheet.Topic2_TestCases@4007f65e]" started-at="2024-04-28T14:37:29Z" name="loginTest" data-provider="getTNLoginExcelData" finished-at="2024-04-28T14:37:35Z" duration-ms="5864" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[seleniumpanda5@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Selenium@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.Day14_28th_Apr_2024_DataProvider_ExcelSheet.Topic2_TestCases@4007f65e]" started-at="2024-04-28T14:37:35Z" name="tearDown" finished-at="2024-04-28T14:37:35Z" duration-ms="636" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="loginTest(java.lang.String, java.lang.String)[pri:1, instance:com.automation.Day14_28th_Apr_2024_DataProvider_ExcelSheet.Topic2_TestCases@4007f65e]" started-at="2024-04-28T14:37:35Z" name="loginTest" data-provider="getTNLoginExcelData" finished-at="2024-04-28T14:37:41Z" duration-ms="5734" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[seleniumpanda6@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Selenium@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.Day14_28th_Apr_2024_DataProvider_ExcelSheet.Topic2_TestCases@4007f65e]" started-at="2024-04-28T14:37:41Z" name="tearDown" finished-at="2024-04-28T14:37:41Z" duration-ms="258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="registerTN(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.automation.Day14_28th_Apr_2024_DataProvider_ExcelSheet.Topic2_TestCases@4007f65e]" started-at="2024-04-28T14:37:41Z" name="registerTN" data-provider="readFromExcelSheetTNRegister" finished-at="2024-04-28T14:37:41Z" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Method public void com.automation.Day14_28th_Apr_2024_DataProvider_ExcelSheet.Topic2_TestCases.registerTN(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) requires a @DataProvider named : readFromExcelSheetTNRegister in class com.automation.Day14_28th_Apr_2024_DataProvider_ExcelSheet.Topic1_ExcelCode]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Method public void com.automation.Day14_28th_Apr_2024_DataProvider_ExcelSheet.Topic2_TestCases.registerTN(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) requires a @DataProvider named : readFromExcelSheetTNRegister in class com.automation.Day14_28th_Apr_2024_DataProvider_ExcelSheet.Topic1_ExcelCode
+	at org.testng.internal.Parameters.findDataProvider(Parameters.java:336)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:498)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1308)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:1036)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1126)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerTN -->
+      </class> <!-- com.automation.Day14_28th_Apr_2024_DataProvider_ExcelSheet.Topic2_TestCases -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.automation.Day12_21st_Apr_2024_ChromeOptions.Topic1_ChromeOptions">
+      <class name="com.automation.Day14_28th_Apr_2024_DataProvider_ExcelSheet.Topic2_TestCases">
         <methods>
           <include name="tearDown"/>
           <include name="registerTN"/>
         </methods>
-      </class> <!-- com.automation.Day12_21st_Apr_2024_ChromeOptions.Topic1_ChromeOptions -->
+      </class> <!-- com.automation.Day14_28th_Apr_2024_DataProvider_ExcelSheet.Topic2_TestCases -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,4 +1,4 @@
-package com.java.Day13_27th_Apr_2024_STRING_OPERATIONS;
+package com.java.Day13_27th_Apr_2024_STRING_OPERATIONS_Part1;
 
 public class String_Operations {
 

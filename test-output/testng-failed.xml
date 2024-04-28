@@ -1,19 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test name="Test(failed)">
-    <parameter name="firstname" value="Selenium"/>
-    <parameter name="password" value="Selenium@123"/>
-    <parameter name="telephone" value="9876543210"/>
-    <parameter name="confirmpassword" value="Selenium@123"/>
-    <parameter name="url" value="https://tutorialsninja.com/demo"/>
-    <parameter name="lastname" value="Panda"/>
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test name="Default test(failed)">
     <classes>
-      <class name="com.automation.Day13_27th_Apr_2024_Paramterization_in_TestNG.Topic2_ClassAssignment_TN_Register">
+      <class name="com.automation.Day14_28th_Apr_2024_DataProvider_ExcelSheet.Topic2_TestCases">
         <methods>
+          <include name="tearDown"/>
           <include name="registerTN"/>
         </methods>
-      </class> <!-- com.automation.Day13_27th_Apr_2024_Paramterization_in_TestNG.Topic2_ClassAssignment_TN_Register -->
+      </class> <!-- com.automation.Day14_28th_Apr_2024_DataProvider_ExcelSheet.Topic2_TestCases -->
     </classes>
-  </test> <!-- Test(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
