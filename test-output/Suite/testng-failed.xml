@@ -2,18 +2,15 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test name="Test(failed)">
-    <parameter name="firstname" value="Selenium"/>
-    <parameter name="password" value="Selenium@123"/>
-    <parameter name="telephone" value="9876543210"/>
-    <parameter name="confirmpassword" value="Selenium@123"/>
-    <parameter name="url" value="https://tutorialsninja.com/demo"/>
-    <parameter name="lastname" value="Panda"/>
     <classes>
-      <class name="com.automation.Day13_27th_Apr_2024_Paramterization_in_TestNG.Topic2_ClassAssignment_TN_Register">
+      <class name="com.automation.Day15_4th_May_2024_Application_of_inheritance.LoginTest">
         <methods>
-          <include name="registerTN"/>
+          <include name="invalidCredentials"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="invalidEmailValidPassword"/>
         </methods>
-      </class> <!-- com.automation.Day13_27th_Apr_2024_Paramterization_in_TestNG.Topic2_ClassAssignment_TN_Register -->
+      </class> <!-- com.automation.Day15_4th_May_2024_Application_of_inheritance.LoginTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
