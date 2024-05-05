@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.automation.Day15_4th_May_2024_Application_of_Encapsulation.LoginTest">
+      <class name="com.automation.Day16_5th_May_2024_TestNG_retry_failed_TestCases.First_Way_LoginTest_retry_failed">
         <methods>
-          <include name="validCredentials"/>
+          <include name="setup"/>
+          <include name="noCredentials"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- com.automation.Day15_4th_May_2024_Application_of_Encapsulation.LoginTest -->
+      </class> <!-- com.automation.Day16_5th_May_2024_TestNG_retry_failed_TestCases.First_Way_LoginTest_retry_failed -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

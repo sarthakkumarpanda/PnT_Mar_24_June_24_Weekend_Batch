@@ -3,14 +3,14 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test name="Test(failed)">
     <classes>
-      <class name="com.automation.Day15_4th_May_2024_Application_of_inheritance.LoginTest">
+      <class name="com.automation.Day16_5th_May_2024_TestNG_retry_failed_TestCases.LoginTest_retry_failed">
         <methods>
-          <include name="invalidCredentials"/>
+          <include name="noCredentials"/>
           <include name="setup"/>
           <include name="tearDown"/>
           <include name="invalidEmailValidPassword"/>
         </methods>
-      </class> <!-- com.automation.Day15_4th_May_2024_Application_of_inheritance.LoginTest -->
+      </class> <!-- com.automation.Day16_5th_May_2024_TestNG_retry_failed_TestCases.LoginTest_retry_failed -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
