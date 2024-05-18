@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.automation.Day16_5th_May_2024_TestNG_retry_failed_TestCases.First_Way_LoginTest_retry_failed">
+      <class name="com.automation.Day19_18th_May_2024_extra_Topics.How_to_Handle_Frames">
         <methods>
-          <include name="setup"/>
-          <include name="noCredentials"/>
-          <include name="tearDown"/>
+          <include name="handlingFrames"/>
         </methods>
-      </class> <!-- com.automation.Day16_5th_May_2024_TestNG_retry_failed_TestCases.First_Way_LoginTest_retry_failed -->
+      </class> <!-- com.automation.Day19_18th_May_2024_extra_Topics.How_to_Handle_Frames -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
