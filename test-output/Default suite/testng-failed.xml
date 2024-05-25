@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.automation.Day19_18th_May_2024_extra_Topics.How_to_Handle_Frames">
+      <class name="com.automation.Day20_25th_May_2024_Multiple_WebElements.Rediff_FooterLinks">
         <methods>
-          <include name="handlingFrames"/>
+          <include name="multipleWebElements"/>
         </methods>
-      </class> <!-- com.automation.Day19_18th_May_2024_extra_Topics.How_to_Handle_Frames -->
+      </class> <!-- com.automation.Day20_25th_May_2024_Multiple_WebElements.Rediff_FooterLinks -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
