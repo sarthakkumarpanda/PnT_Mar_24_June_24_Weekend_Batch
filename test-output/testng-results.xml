@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-25T18:31:29Z" name="Default suite" finished-at="2024-05-25T18:33:47Z" duration-ms="137627">
+  <suite started-at="2024-05-26T16:51:46Z" name="Default suite" finished-at="2024-05-26T16:51:50Z" duration-ms="3217">
     <groups>
     </groups>
-    <test started-at="2024-05-25T18:31:29Z" name="Default test" finished-at="2024-05-25T18:33:47Z" duration-ms="137627">
-      <class name="com.automation.Day20_25th_May_2024_Multiple_WebElements.Rediff_FooterLinks">
-        <test-method signature="multipleWebElements()[pri:0, instance:com.automation.Day20_25th_May_2024_Multiple_WebElements.Rediff_FooterLinks@72bc6553]" started-at="2024-05-25T14:31:29Z" name="multipleWebElements" finished-at="2024-05-25T14:33:47Z" duration-ms="137612" status="PASS">
+    <test started-at="2024-05-26T16:51:46Z" name="Default test" finished-at="2024-05-26T16:51:50Z" duration-ms="3217">
+      <class name="com.automation.Day19_18th_May_2024_Mouse_Actions.MouseActions">
+        <test-method signature="dragandDropOperation()[pri:0, instance:com.automation.Day19_18th_May_2024_Mouse_Actions.MouseActions@5c80cf32]" started-at="2024-05-26T12:51:46Z" name="dragandDropOperation" finished-at="2024-05-26T12:51:50Z" duration-ms="3201" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- multipleWebElements -->
-      </class> <!-- com.automation.Day20_25th_May_2024_Multiple_WebElements.Rediff_FooterLinks -->
+        </test-method> <!-- dragandDropOperation -->
+      </class> <!-- com.automation.Day19_18th_May_2024_Mouse_Actions.MouseActions -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -15,3 +15,5 @@ https://demo.opencart.com/
 https://demo.opencart.com/admin/
 http://automationpractice.com/
 http://live.demoguru99.com/
+
+https://www.qafox.com/selenium/selenium-practice/

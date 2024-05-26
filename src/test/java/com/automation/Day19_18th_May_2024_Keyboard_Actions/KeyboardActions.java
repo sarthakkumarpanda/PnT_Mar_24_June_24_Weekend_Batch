@@ -1,4 +1,4 @@
-package com.automation.Day19_18th_May_2024_Mouse_Keyboard_Actions;
+package com.automation.Day19_18th_May_2024_Keyboard_Actions;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;

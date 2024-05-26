@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.automation.Day20_25th_May_2024_Multiple_WebElements.Rediff_FooterLinks">
+      <class name="com.automation.Day19_18th_May_2024_Mouse_Actions.MouseActions">
         <methods>
-          <include name="multipleWebElements"/>
+          <include name="dragandDropOperation"/>
         </methods>
-      </class> <!-- com.automation.Day20_25th_May_2024_Multiple_WebElements.Rediff_FooterLinks -->
+      </class> <!-- com.automation.Day19_18th_May_2024_Mouse_Actions.MouseActions -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
