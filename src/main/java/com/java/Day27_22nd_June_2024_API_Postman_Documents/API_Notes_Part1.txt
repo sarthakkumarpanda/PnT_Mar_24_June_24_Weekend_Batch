@@ -1,0 +1,53 @@
+Early topics for API Testing using postman:-
+------------------------------------------------
+
+Create a Workspace in Postman
+Create Collection(s) for that workspace
+Create Request(http) GET/POST/PUT/PATCH/DELETE as per your requirements
+
+in Case it is a GET Request then pass the url and wait for the server response which is known as the response payload 
+
+check the status 200 OK or something else
+check the time elapsed 155 ms or something else
+also check the size of the response payload data 1.92KB or something else
+make sure the Body Tab has the Pretty highlighted so that the response payload will look more readable in the JSON format
+Cookies can also be validated which we will learn ahead in the course
+Headers can also be validated which we will learn ahead in the course
+Test Results can also be validated which we will learn ahead in the course
+
+
+in case it is a POST Request then we pass the url, we pass the Request payload and the server will return a Response payload
+the Request payload as an example is [click on raw radio button and select JSON from the dropdown]
+
+{
+    "name": "Sarthak",
+    "job": "Automation Trainer"
+}
+
+and click on Send button
+
+The Server will send a Response Payload as shown below
+{
+    "name": "Sarthak",
+    "job": "Automation Trainer",
+    "id": "755",
+    "createdAt": "2024-01-28T11:00:03.696Z"
+}
+
+now if you want to UPDATE something then we have to create a PUT request
+the url to be passed will be https://reqres.in/api/users/755     and the 755 comes from the id
+
+{
+    "name": "Sarthak",
+    "job": "Automation Architect"
+}
+
+
+The updated Response Payload will look like this:-
+
+{
+    "name": "Sarthak",
+    "job": "Automation Architect",
+    "updatedAt": "2024-01-28T11:10:04.838Z"
+}
+

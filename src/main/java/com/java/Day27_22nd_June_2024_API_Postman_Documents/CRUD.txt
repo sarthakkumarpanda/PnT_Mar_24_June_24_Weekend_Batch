@@ -1,0 +1,38 @@
+https://tutorialsninja.com/demo/index.php?route=product/search&search=HP
+
+
+baseURI - https://tutorialsninja.com/
+resource - demo
+path parameter - index.php
+query parameter - route, search
+end point url - https://tutorialsninja.com/demo/index.php?route=product/search&search=HP
+
+
+how do you test these APIs
+
+CRUD
+
+
+postman
+Download and install the postman
+register using your email ID
+Create a Collection
+Add request
+1. POST (Create)
+   base URI + resources + path parameters + query parameters
+   Body (JSON Response)
+
+2. GET (Retrieve)
+   base URI + resources + path parameters + query parameters but make sure place_id is passed as query parameter
+
+3. DELETE
+  base URI + resources + path parameters + query parameters
+  in the body make sure you have the updated place_id
+
+4. Check after DELETE operation, the GET is working or not
+
+5. Again make the POST operation
+
+6. Then do the UPDATE operation
+base URI + resources + path parameters + query parameters
+in the body make sure you have the updated place_id and change the address here

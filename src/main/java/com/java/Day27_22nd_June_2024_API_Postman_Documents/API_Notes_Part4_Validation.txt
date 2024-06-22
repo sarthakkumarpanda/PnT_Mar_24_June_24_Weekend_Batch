@@ -1,0 +1,225 @@
+How to learn API Testing:-
+--------------------------
+Pre-requisites to learn API
+-Basics of Java
+-TestNG
+
+When we keep the API on the internet or it is available on the web then it is known as WebService
+All webservices are APIs but all APIs are not Webservices
+
+
+Create APIs on own
+
+Download NodeJS and env configure
+pass the command npm install -g json-server
+
+create a simple json file students.json and paste it in a folder
+open cmd in that folder and pass the command json-server students.json
+
+ Resources
+  http://localhost:3000/students
+
+  Home
+  http://localhost:3000
+
+
+if you see the above two links that means API is up and running. Do not close the cmd else it will be closed. Just minimize the window
+
+Take the http://localhost:3000/students and run it in a browser and you will see the JSON and list of student details.
+
+Now need to run the API in Postman tool
+
+
+API Response Validations:-
+Status Code
+Headers
+Cookies
+Response Time
+Response Body
+
+To test the above items we need to add something called as Assertions. Assertion is nothing but - validation points
+
+To add assertion in postman we have some libraries. One of them is pm.
+
+pm-it is a postman library which has lot of functions. These functions are designed by using Javascript.
+we need to write javascript() function in which we have to call pm function.....       
+
+Normal function
+Arrow function
+
+Chai Assertion Library/Framework [This is a javascript framework. This Chai framework has a lot of pre-defined functions]
+pm.test("Test Name", function()
+              {
+                 //validation
+              }
+      );
+
+pm.test("Test Name", () =>
+             {
+                 //validation
+             }
+      );
+
+How to validate different components of Response:-
+----------------------------------------------------
+
+//Testing Status Codes
+
+//test for the response status code: -
+pm.test("Status code is 200", () =>
+         {
+            pm.response.to.have.status(200);
+         }
+);
+
+//if you want to test for the status code being one of a set, include them all in an array and use one of
+pm.test("Success POST/GET request", () =>
+         { 
+           pm.expect(pm.response.code).to.be.oneOf([201,202]);
+         }
+);
+
+//check the status code text: [this is mostly for POST request]
+pm.test("Status code has name String, () =>
+        {
+          pm.response.to.have.status("Created");
+        }
+);
+
+
+//Testing Headers
+//Headers contain a lot of information. As testers we need to check headers have proper value
+//Content-Type we have to verify as it is the most important which is mostly static. Rest all values keep changing
+
+Check that a response header is present or not
+pm.test("Content-Type header is present", () =>
+         {
+           pm.response.to.have.header("Content-Type");
+         }
+);
+
+//Test for a response header having a particular value
+pm.test("Content-Type header is application/json", () =>
+       {
+         pm.expect(pm.response.headers.get('Content-Type')).to.eql('application/json; charset=utf-8');
+       }
+);
+
+//Testing Cookies
+//Sometimes cookies value can be too dynamic. But some cookies are static so we can focus on validating these cookies.
+
+//Test if a cookies is present in the response:
+pm.test("Cookie 'language' is present", () =>
+        {
+          pm.expect(pm.cookies.has('language')).to.be.true;
+        }
+);
+
+//Test for a particular cookie value:
+pm.test("Cookie language has value 1", () =>
+        {
+          pm.expect(pm.cookies.get('language')).to.eql('en-gb');
+        }
+);
+
+
+//Testing Time Responses:-
+
+//Test for the response time to be within a specified range:
+pm.test("Response time is less than 200ms", () =>
+    {
+      pm.expect(pm.response.responseTime).to.be.below(200);
+    }
+);
+
+//Testing Response Body:-
+//This is very important. 
+
+//Test the type of any part of the response:
+
+const jsonData = pm.response.json();
+
+pm.test("Test data type of the response", () =>
+     {
+       pm.expect(jsonData).to.be.an("object");
+       pm.expect(jsonData.name).to.be.a("string");
+       pm.expect(jsonData.id).to.be.a.("number");
+       pm.expect(jsonData.courses).to.be.an("array");
+     }
+);
+
+
+//Asserting array properties
+//Check if an array is empty and if it contains particular items
+
+pm.test("Test array properties", () => 
+     {
+       pm.expect(jsonData.courses).to.include("Java");
+       pm.expect(jsonData.courses).to.have.members(["Java", "Selenium"]);
+     }
+);
+
+//Validation JSON fields in Response
+pm.test("value of all fields in Response", () =>
+    {
+      var jsonData = pm.response.json();
+      pm.expect(jsonData.id).to.eql(1);
+      pm.expect(jsonData.name).to.eql("John Doe");
+      pm.expect(jsonData.location).to.eql("City A");
+      pm.expect(jsonData.phone).to.eql("123-456-7890");
+      pm.expect(jsonData.courses[0]).to.eql("Mathematics");
+      pm.expect(jsonData.courses[1]).to.eql("Phyics");
+    }
+);
+
+//JSON Schema validation
+var schema = {
+"$schema": "http://json-schema.org/draft-04/schema#",
+"type":"object",
+"properties": {
+      "id": {
+        "type": "integer"
+       },
+      "name": {
+        "type": "string"
+       },
+      "location": {
+        "type": "string"
+       },
+      "phone": {
+        "type": "string"
+       },
+      "courses": {
+        "type": "array",
+        "items": [
+          {
+            "type" : "string"
+          },
+          {
+           "type" : "string"
+          }
+         ]
+       }
+ },
+"required" : [
+ "id", 
+ "name",
+ "location",
+ "phone",
+ "courses"
+]
+}
+
+pm.test('Schema is valid', function() {
+  pm.expect(tv4.validate(jsonData, schema)).to.be.true;
+}
+);
+
+
+
+
+
+
+
+
+

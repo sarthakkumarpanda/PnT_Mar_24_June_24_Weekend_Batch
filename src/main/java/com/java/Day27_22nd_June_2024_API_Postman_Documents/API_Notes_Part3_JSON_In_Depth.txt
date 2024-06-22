@@ -1,0 +1,154 @@
+JSON (Java Script Object Notation)
+
+Whenever we communicate between Client and server the data communication will happen via json or sometimes even xml
+
+json and xml are the formats which are directly transferred. Other forms of data (.txt, html, .pdf or .xlsx) will have to be converted as these are high weight data
+also data needs to be secure. So it is better to use json as they are encrypted and they are lightweight and so it will go faster.
+
+xml is used in SOAP services but json is most popular in REST services
+
+We need to understand the JSON data. 
+
+JSON Data types:-
+----------------
+Number
+String
+Boolean
+Null
+Object
+Array
+
+
+We have represent in key and value pairs. Entire JSON will be in key-value pairs
+
+Examples of the above data types: -
+-------------------------------------
+Starting curly brace and ending curly brace
+String - Strings must be written in double quotes
+key is always included in double quotes. In the below example name is the key and it has to be written as "name"
+
+{ "name" : "Sarthak"}
+
+you can also write like this 
+{
+ "name": "Sarthak"
+}
+
+Number data type example:-
+
+{
+"age" :
+39
+}
+
+what if you want to combine both String and Number
+
+{
+
+"name" : "Sarthak",
+"age" : 30
+
+}
+
+Now let's say you want to enter mobile numbers and let's say one person has 2 or 3 mobile numbers then that can be inserted as an Array
+{
+"name" : "Sarthak",
+"age" : 39,
+"Mobile" : [123456789, 987654321]
+}
+
+Now let's say you want to enter specifically firstname and lastname and lastname for some reason is a null and also check Citizenship status as boolean then
+
+{
+"firstname" : "Sarthak",
+"lastname" : null,
+"age" : 39,
+"mobile" : [123456789, 987654321],
+"CitizenStatus" : true
+}
+
+Now the above is just 1 single object
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Now let's consider a set of parameters and based on those parameters we will manually create the JSON
+
+1. Represent Students data.
+2. So students is the object
+3. every student is having firstname, lastname, grade, studentid
+4. Want to store 2 students data in the json format
+
+{
+"students": [
+             {
+              "id" : 1,
+              "firstname" : "John",
+              "lastname" : "Cena",
+              "grade" : "A"
+             },
+
+             {
+              "id" : 2,
+              "firstname" : "Tom",
+              "lastname" : "Alter",
+              "grade" : "B"
+             },
+
+             {
+              "id" : 3,
+              "firstname" : "Hannah",
+              "lastname" : "Colleen",
+              "grade" : "C"
+             }
+           ]         
+
+}
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+JSON Path
+
+
+{
+"students": [
+             {
+              "id" : 1,
+              "firstname" : "John",
+              "lastname" : "Cena",
+              "grade" : "A"
+             },
+
+             {
+              "id" : 2,
+              "firstname" : "Tom",
+              "lastname" : "Alter",
+              "grade" : "B"
+             },
+
+             {
+              "id" : 3,
+              "firstname" : "Hannah",
+              "lastname" : "Colleen",
+              "grade" : "C"
+             }
+           ]         
+
+}
+
+if you want to get the JSON path to extract lastname as Colleen then
+students[2].lastname
+
+if you want to capture grade as B then
+students[1].grade
+
+But the above is very easy then it is ok to design a JSON Path but sometimes some json files are too complex with lot of data then we need to take help of some tools
+to determine the json path
+
+https://jsonpathfinder.com/
+
+https://jsonpath.com/
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+

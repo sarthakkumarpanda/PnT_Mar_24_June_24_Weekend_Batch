@@ -1,0 +1,57 @@
+https://google.com - baseURI
+https://google.com/images - images is known as resource
+https://google.com/images/222234- 222234 is known as a path parameter
+https://google.com/images/222234/?qakswi123 - key is a query parameter
+
+https://google.com/images/222234/key?qakswi123 - endpoint url
+
+https://www.google.com/search?sca_esv=bedc8d185beb6f7e&sca_upv=1&q=central+park+new+york&uds=ADvngMiUitnrVmhIp7n9qOyVnKT4cRDCibWZ9yPBT86XZlJEUZVGoCIOXQ-haFlYiDRrlTeMQMUcS4Rjcno7zJS7gVqh4UCdC8Kxx4887Gbg3zzV7PDCavRUVzk13rWRNF3A-8s_TT_y&udm=2&sa=X&ved=2ahUKEwja0N2eu--GAxWHFmIAHRVUCDYQxKsJegQIExAB&ictx=0&biw=1383&bih=729&dpr=2.5#vhid=85H9DEyq8LazgM&vssid=mosaic
+
+https://www.google.com/ - baseURI
+search - resource
+sca_esv = bedc8d185beb6f7e
+sca_upv = 1
+q = central+park+new+york
+uds = ADvngMiUitnrVmhIp7n9qOyVnKT4cRDCibWZ9yPBT86XZlJEUZVGoCIOXQ-haFlYiDRrlTeMQMUcS4Rjcno7zJS7gVqh4UCdC8Kxx4887Gbg3zzV7PDCavRUVzk13rWRNF3A-8s_TT_y
+
+POST (Create)
+baseURI + resources + pathparameters + queryparameters
+Body [JSON / XML]
+
+GET (Retrieve)
+baseURI + resources + pathparameters + queryparameters
+
+DELETE(Delete)
+baseURI + resources + pathparameters + queryparameters
+in the body you make sure you have the updates
+
+PUT(Update)
+baseURI + resources + pathparameters + queryparameters
+in the body you make sure you have the updates
+
+
+POST - Create
+GET - Retrieve
+PUT - Update
+DELETE - Delete
+
+CRUD operations
+
+
+API Contract
+-------------------------------------------------------------------------
+Response received after submitting POST request
+
+{
+    "status": "OK",
+    "place_id": "\",
+    "scope": "APP",
+    "reference": "54b9b93fbfc5bff80fb959ccbd5191eb54b9b93fbfc5bff80fb959ccbd5191eb",
+    "id": "54b9b93fbfc5bff80fb959ccbd5191eb"
+}
+
+-----------------------------------------------------------------------------------------
+
+
+
+

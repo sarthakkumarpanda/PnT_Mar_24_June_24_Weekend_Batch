@@ -1,0 +1,113 @@
+API Testing with Postman
+Setup Process of Rest-Assured in Eclipse
+
+Bootcamp
+-----------------
+
+API (Application Programming Interface)
+
+Scenario1:-
+-------------
+Hilton.com (front end - Java) + Backend (Java)
+
+Scenario2:-
+--------------
+Hilton.com (front end - Javascript/Typescript) + Backend (Java)
+you cannot use a method reservation(){ } designed in java and integrate the same in Js/Ts
+There is a problem
+
+Scenario3:-
+--------------
+Booking.com or Hotel.com wants to do business with Hilton
+Booking.com or Hotel.com become the Front end
+Hilton is still the backend, database is also of Hilton
+Will Hilton expose their source code reservation(){ } to Booking and Hotel ??
+
+-----------------------------------------------------------------------------------------------
+
+SOAP
+
+
+REST API
+
+GET
+POST
+PUT/UPDATE
+DELETE
+
+they are also known as CRUD Operations
+
+Create [POST]
+Retrieve [GET]
+Update [PUT]
+Delete [DELETE]
+---------------------------------------------------------------------------------------------
+
+
+https://www.google.com/
+
+https://www.google.com/search?q=New+York&sca_esv=587304131&sxsrf=AM9HkKk1w_7FOH3ZiiNRFjIKki53g_kGww%3A1701532074000&source=hp&ei=qVFrZc6QNYmq5NoP2JiZyAE&iflsig=AO6bgOgAAAAAZWtfuuObT3eS0oU9mqB4uL_jGVbDZFaI&ved=0ahUKEwiOidn2jPGCAxUJFVkFHVhMBhkQ4dUDCAw&uact=5&oq=New+York&gs_lp=Egdnd3Mtd2l6IghOZXcgWW9yazIKECMYgAQYigUYJzIIEC4YsQMYgAQyCxAAGIAEGLEDGIMBMgsQABiABBixAxiDATIIEC4YgAQYsQMyDhAuGIAEGIoFGLEDGIMBMggQLhiABBixAzILEC4YgAQYxwEY0QMyCxAAGIAEGLEDGIMBMgsQABiABBixAxiDAUjsD1AAWLANcAB4AJABAJgBsAGgAagKqgEDMC44uAEDyAEA-AEBwgIKEC4YgAQYigUYQ8ICEBAuGIAEGIoFGEMYsQMYgwHCAgoQABiABBiKBRhDwgIQEAAYgAQYFBiHAhixAxiDAcICERAuGIAEGLEDGIMBGMcBGNEDwgINEC4YQxixAxiABBiKBcICEBAAGIAEGIoFGEMYsQMYgwE&sclient=gws-wiz
+
+https://www.google.com/search?q=newyork&oq=newyork&aqs=chrome..69i57j0l7.2501j0j7&sourceid=chrome&ie=UTF-8
+
+
+the whole thing is called URL or URI
+
+https://www.google.com/ - this is the base URL
+https://www.google.com/search - search is the resource
+
+path parameters and query parameters
+
+query parameter is represented via a ? mark
+query parameters are separated by & symbol
+
+q=New+York
+oq=newyork
+aqs=chrome..69i57j0l7.2501j0j7
+sourceid=chrome
+ie=UTF-8
+
+https://www.amazon.com/hz/mobile/mission?p=AqOVak%2F1EveqJSPmrBqxEl4dCnvV5G6%2B1PZDgurApR24z9FDWNEYsHzudV8%2ByHseYs4xIVzh03fOpGD8yC6RTQ9P%2BZEY1S92SDWOApC%2FrcqrnsP9p%2FDXTmZruTpsCErVF7bEUr%2BLnQ9%2FyEqwNZfVwZ6Srda2lmKD%2F98A%2FdQ4AN0%2FB%2BpzNtTyX314oA9J6Pii1hHmGn1sxFINrO4%2BVNLbJqt8VXBbZau3CyIU8NWgfXwmoJ%2BoodnMG0W4LlGyeBmw%2FxRHEDg%2F%2F1cf7zeexAW6g4ok4aGg1RjxRArj3wFHYwgYnokIAAwKbgYDuwoOMu%2BhBV5zp8wSPB65GP08sp9qVh9la4UtKFUe1YXY1szWLMLS%2FgyvuMI8CWlQetZx7JEFZhjk3RzeC03C%2FtzYR51d63OC1P6OFathUTQerIffSxQAOXr2GSau9g%3D%3D&ref_=ci_mcx_mi&pf_rd_r=51ND6QVFEFY2KETKCCQE&pf_rd_p=1167637a-376e-4d30-92da-a7977b0ccfaa&pd_rd_r=03fc84e5-a9bc-48a3-973b-75cbe2f31d9a&pd_rd_w=ubLfE&pd_rd_wg=pbTnX
+
+https://www.amazon.com/
+https://www.amazon.com/hz - then here hz is the resource
+mobile/mission are path parameters
+
+p = AqOVak%2F1EveqJSPmrBqxEl4dCnvV5G6%2B1PZDgurApR24z9FDWNEYsHzudV8%2ByHseYs4xIVzh03fOpGD8yC6RTQ9P%2BZEY1S92SDWOApC%2FrcqrnsP9p%2FDXTmZruTpsCErVF7bEUr%2BLnQ9%2FyEqwNZfVwZ6Srda2lmKD%2F98A%2FdQ4AN0%2FB%2BpzNtTyX314oA9J6Pii1hHmGn1sxFINrO4%2BVNLbJqt8VXBbZau3CyIU8NWgfXwmoJ%2BoodnMG0W4LlGyeBmw%2FxRHEDg%2F%2F1cf7zeexAW6g4ok4aGg1RjxRArj3wFHYwgYnokIAAwKbgYDuwoOMu%2BhBV5zp8wSPB65GP08sp9qVh9la4UtKFUe1YXY1szWLMLS%2FgyvuMI8CWlQetZx7JEFZhjk3RzeC03C%2FtzYR51d63OC1P6OFathUTQerIffSxQAOXr2GSau9g%3D%3D&ref_=ci_mcx_mi&pf_rd_r=51ND6QVFEFY2KETKCCQE
+
+pf_rd_p = 1167637a-376e-4d30-92da-a7977b0ccfaa
+
+pd_rd_r = 03fc84e5-a9bc-48a3-973b-75cbe2f31d9a
+
+pd_rd_w = ubLfE
+
+pd_rd_wg = pbTnX
+
+baseURI
+resource
+pathparameters
+queryparameters
+endpointurl
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
